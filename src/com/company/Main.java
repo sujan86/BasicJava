@@ -1,9 +1,17 @@
 package com.company;
 
+import additionTwoNumb.Addition;
+import additionTwoNumb.DivisonOf;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-        System.out.println("Hello\n Sujan Bhandari");
+
+        Addition add = new Addition();
+        add.additionOfTwoNumbers();
+        System.out.println("=========================================================================");
+        add.miscellaneousCalculation(24,23,45);
+        System.out.println("=========================================================================");
+
     }
 }
