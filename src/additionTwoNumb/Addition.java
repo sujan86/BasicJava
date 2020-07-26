@@ -34,4 +34,13 @@ public class Addition {
 
     }
 
+    public void multiplicationOfTwoNumber(){
+        int x= 5;
+        int y= 100;
+
+        int multiplication= x*y;
+        System.out.println(multiplication);
+
+    }
+
 }
