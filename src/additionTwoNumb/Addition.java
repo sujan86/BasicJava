@@ -5,6 +5,8 @@ public class Addition {
     float number2;
     double number3;
 
+    //Addition of two number
+
     public void additionOfTwoNumbers() {
 
         int number = 48;
@@ -14,6 +16,8 @@ public class Addition {
         System.out.println(sum);
 
     }
+
+    //Miscellaneous calculation
 
     public void miscellaneousCalculation(int x, float y, double z) {
         number =x;
